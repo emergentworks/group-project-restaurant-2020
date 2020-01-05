@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:dev": "webpack-dev-server --watch",
     "server": "gulp server"
   },
   "repository": {
@@ -18,6 +19,9 @@
   "homepage": "https://github.com/codecooperative/group-project-boilerplate-2020#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
