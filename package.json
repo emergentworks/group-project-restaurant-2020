@@ -4,6 +4,7 @@
   "description": "A template website for restaurants, written by members of the Winter 2020 Code Cooperative cohort",
   "main": "index.js",
   "scripts": {
+    "start:dev": "webpack-dev-server --watch",
     "server": "gulp server"
   },
   "repository": {
@@ -17,7 +18,14 @@
   },
   "homepage": "https://github.com/codecooperative/group-project-restaurant-2020#readme",
   "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
