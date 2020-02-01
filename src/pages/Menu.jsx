@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const Index = () => (
+const Menu = () => (
   <Layout>
-    index
+    Menu
   </Layout>
 );
 
-export default Index;
+export default Menu;
