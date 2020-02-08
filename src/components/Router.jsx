@@ -14,7 +14,7 @@ const Router = () => (
       <Route path="/menu">
         <Menu />
       </Route>
-      <Route exact path="/">
+      <Route exact={true} path="/">
         <Index />
       </Route>
       <Redirect to="/" />

@@ -1,16 +1,25 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
-  <nav class="navbar navbar-inverse navbar-fixed-bottom">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
+  <nav className="navbar navbar-inverse navbar-fixed-bottom">
+    <div className="container-fluid">
+      <div className="navbar-header">
+        <Link to="/" className="navbar-brand">Restaurant Name</Link>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Contact Info</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+      <ul className="nav navbar-nav">
+        <li className="active">
+          <Link to="/">Contact Info</Link>
+        </li>
+        <li>
+          <Link to="/">Schedule</Link>
+        </li>
+        <li>
+          <Link to="/">Page 2</Link>
+        </li>
+        <li>
+          <Link to="/">Page 3</Link>
+        </li>
       </ul>
     </div>
   </nav>

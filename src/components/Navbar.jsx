@@ -1,25 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+  <nav className="navbar navbar-default">
+    <div className="container">
+      <div className="navbar-header">
+        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span className="sr-only">Toggle navigation</span>
+          <span className="icon-bar" />
+          <span className="icon-bar" />
+          <span className="icon-bar" />
         </button>
-        <a href="#" class="navbar-brand">Resturant Name</a>
+        <Link to="/" className="navbar-brand">Resturant Name</Link>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+      <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul className="nav navbar-nav">
+          <li>
+            <Link to="/">About</Link>
+          </li>
+          <li>
+            <Link to="/menu">Menu</Link>
+          </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Reservations</a></li>
-          <li><a href="#">Special Event</a></li>
+        <ul className="nav navbar-nav navbar-right">
+          <li>
+            <Link to="/">Reservations</Link>
+          </li>
+          <li>
+            <Link to="/">Special Events</Link>
+          </li>
+          <li>
+            <Link to="/">Contact</Link>
+          </li>
         </ul>
       </div>
     </div>
