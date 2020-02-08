@@ -1,9 +1,18 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import MenuItem from '../components/MenuItem';
 
 const Menu = () => (
   <Layout>
-    Menu
+    <h1>Menu</h1>
+    <ul>
+      <MenuItem />
+      <MenuItem />
+      <MenuItem />
+      <MenuItem />
+      <MenuItem />
+      <MenuItem />
+    </ul> 
   </Layout>
 );
 
