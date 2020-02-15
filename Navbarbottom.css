@@ -1,0 +1,46 @@
+body{
+	background-color: #B69993;
+}
+
+
+.row{
+	padding-bottom: 4px;
+
+}
+.media-object{
+	width: 300px;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron{
+	margin-top: 20px;
+	background-image: url(https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.slider-container{
+	width: 800px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.image-container{
+	width: 2400px;
+	height: 600px;
+}
+
+.slider-image{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.

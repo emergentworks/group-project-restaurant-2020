@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => (
-  <nav className="navbar navbar-inverse navbar-fixed-bottom">
+  <nav className="navbar navbar-default navbar-fixed-bottom">
     <div className="container-fluid">
       <div className="navbar-header">
-        <Link to="/" className="navbar-brand">Restaurant Name</Link>
+        <Link to="/" className="navbar-brand">The Food's Galore</Link>
       </div>
       <ul className="nav navbar-nav">
         <li className="active">
